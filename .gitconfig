@@ -28,6 +28,7 @@
   st = status
   ls = log --oneline
   ll = log --oneline --graph
+  pom = push origin master
   whois = "!sh -c 'git log -i -1 --pretty=\"format:%an <%ae>\n\" --author=\"$1\"' -"
   prune-locals = !git branch --merged | grep -v \"\\*\" | xargs -n 1 git branch -d
   topic-log = "!sh -c 'git log master...`git rev-parse --abbrev-ref HEAD` --pretty=oneline --abbrev-commit' -"
