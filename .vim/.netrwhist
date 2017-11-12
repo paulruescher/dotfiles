@@ -1,3 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/Users/paulruescher/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/websocket-rails-0.7.0'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/paulruescher/Documents/experiments/process_playground'
+let g:netrw_dirhist_2='/Users/paulruescher/Documents/experiments/bank_account'
+let g:netrw_dirhist_3='/Users/paulruescher/.config'

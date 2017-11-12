@@ -1,11 +1,12 @@
 execute pathogen#infect()
 syntax on 
 syntax enable
-set background=dark
-let g:solarized_termcolors=256
-colorscheme solarized
+set t_Co=256
+colorscheme archery 
+
 filetype plugin indent on
 
+let g:airline_theme='archery'
 
 let mapleader=","
 set nowrap
@@ -34,3 +35,4 @@ noremap <Right> <NOP>
 noremap <Leader>s :update<CR>
 noremap <Leader>/ :noh<CR>
 noremap <Leader>r :! bundle exec rspec<CR>
+noremap <Leader>mt :! mix test

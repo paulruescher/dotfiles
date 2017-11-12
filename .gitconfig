@@ -1,6 +1,6 @@
 [user]
   name = Paul Ruescher
-  email = paul@metalabdesign.com
+  email = paul.ruescher@gmail.com
 
 [github]
   user = paulruescher
@@ -75,3 +75,5 @@
 
 [diff "exif"]
   textconv = exiftool
+[core]
+	excludesfile = /Users/paulruescher/.gitignore_global
